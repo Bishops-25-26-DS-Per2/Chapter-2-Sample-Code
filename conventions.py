@@ -31,3 +31,18 @@ my_str = "I have a lot to say, and I'm really long-winded, and I'm gonna "
 my_str += "write a \nrun-on sentence because no English teacher will ever "
 my_str += "read this."
 print(my_str) # print() ends with a newline character by default
+
+# Annotations:
+# If your parameter could have more than one data type use OR symbol | :
+def my_function(my_var: str | None) -> int | None:
+
+# If you are annotating a class that hasn't been defined yet: put it in quotes
+def my_function(my_var: 'MyClass'):
+
+# Docstrings:
+# Still gotta follow 80 character limit, and, if there's more than one line,
+#   then put a blank line after the first line.
+def my_function() -> None:
+    """This is what my function does, briefly.
+    
+    Here's some more information about my function."""
