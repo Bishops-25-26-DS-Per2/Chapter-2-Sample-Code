@@ -2,7 +2,7 @@
 TBSDrJ
 Fall 2025
 Because Python is both dynamically and weakly typed, it isn't great at
-polymorphism.
+overloading.
 
 Note: You could use type(user_input) == str below, but you shouldn't.  You
 should get in the habit of using isinstance() instead because isinstance()
